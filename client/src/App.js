@@ -7,6 +7,9 @@ import Activities from './components/Activities/';
 import Countries from './components/Countries/';
 import Details from './components/Details/';
 import ActivitiesCountry from './components/ActivitiesCountry/Index';
+import axios from "axios"
+axios.defaults.baseURL = "http://localhost:3001/"
+
 
 function App() {
   return (

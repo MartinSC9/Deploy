@@ -33,7 +33,7 @@ const ActivitiesCountry = () => {
             buttons: ["No", "Si"]
         }).then(res => {
             if (res) {
-                axios.delete("http://localhost:3001/activity/" + id)
+                axios.delete("/activity/" + id)
                 swal({
                     text: "La actividad se ha borrado con éxito",
                     icon: "success"

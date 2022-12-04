@@ -29,7 +29,7 @@ const Form = ({ dispatch }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!Object.keys(error).length) {
-      await axios.post("http://localhost:3001/activity", input)
+      await axios.post("/activity", input)
       dispatch(getAllActivities())
       swal({
         text: `Actividad para ${input.country} creada exitosamente`,

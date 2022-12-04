@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const continent = async (cont) => {
-    const response = await axios.get("http://localhost:3001/countries");
+    const response = await axios.get("/countries");
     if (cont === "Paises de todos los continentes") {
         return response.data
     } else {
