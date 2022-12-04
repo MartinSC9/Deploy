@@ -1,0 +1,89 @@
+#form {
+    margin-top: 1rem;
+    background: linear-gradient(#02283c, #034160);
+    padding: 10px 10px 10px 10px;
+    border-radius: 1rem;
+    border: 1px solid white;
+    width: min-content;
+    margin: 1rem;
+    color: white;
+    text-shadow: black 2px 2px 5px;
+}
+
+.select {
+    background-color: #022334;
+    color: white;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#inputdate::-webkit-calendar-picker-indicator {
+    /* display: none; */
+    background-color: white;
+    color: #034160;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+#inputdate:focus {
+    color: #495057;
+    background-color: #FFFFFF;
+    border-color: #80BDFF;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.select:hover {
+    background-color: #023047;
+    transition: 300ms;
+}
+
+.button {
+    background-color: #022334;
+    color: white;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    margin: 2rem 1rem 1rem 2rem;
+    text-align: center;
+    transition: 300ms;
+}
+
+.button:hover {
+    border: 1px solid #023047;
+    background-color: white;
+    color: #023047;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.countrySelect {
+    display: flex;
+    justify-content: center;
+    place-items: flex-start;
+    padding: 5px;
+    border-radius: 1px solid white;
+    background-color: #022334;
+}
+
+
+
+.buttonClose {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #a72c2c;
+    margin: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonClose:hover {
+    border: 1px solid #023047;
+    background-color: white;
+    color: #a72c2c;
+    transition: 300ms;
+}

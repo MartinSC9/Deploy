@@ -1,0 +1,16 @@
+ html,
+ body {
+   margin: 0;
+   font-family: cursive;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background: url("https://www.gisandbeers.com/wp-content/uploads/2016/04/Night-Earth.jpg");
+   background-size: contain;
+   height: 100vh;
+   justify-content: center;
+ }
+
+ code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+     monospace;
+ }

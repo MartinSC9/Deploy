@@ -1,0 +1,61 @@
+.actividades {
+    width: min-content;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #034160;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.navBar {
+    text-decoration: none;
+    color: white;
+    background-color: #023047;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 3rem;
+    display: flex;
+    width: fit-content;
+    
+}
+
+.navBar:hover {
+    background-color: white;
+    color: #023047;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+    margin-bottom: 2rem;
+}
+#title {
+    color: white;
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: center;
+    animation-name: animar;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-shadow: 2px 2px 10rem rgb(54, 49, 49), 3px 3px black;
+}
+@keyframes animar {
+    0% {
+      transform: scale(0.80);
+    }
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #noTiene {
+    color: white;
+  }

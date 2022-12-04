@@ -1,0 +1,138 @@
+.container {
+    justify-content: center;
+    display: flex;
+    color: white;
+    animation: mover-derecha 800ms ease-in;
+    animation-delay: 0;
+  }
+  
+  @keyframes mover-derecha{
+    0%{
+      transform: translateX(10rem);
+    }
+    50%{
+      transform: translateX(-20px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+  }  
+
+.card {
+    background: linear-gradient( #033e5e ,#023853);
+    border: 2px solid white;
+    padding: 1rem;
+    width: max-content;
+    border-radius: 1rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    height: fit-content;
+    text-shadow: black 3px 3px 5px;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.items {
+    border: 2px solid white;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 10px;
+}
+.items:hover {
+    background-color: #023047;
+}
+#img {
+    width: 180px;
+    height: 150px;
+    border: 1px solid white;
+}
+#escudo{
+    width: 140px;
+    height: 140px;
+}
+
+.crear {
+    display: flex;
+    border: 2px solid white;
+    border-radius: 1rem;
+    width: min-content;
+    padding: 7px;
+    background-color: #012638;
+    color: white;
+}
+
+.crear:hover {
+    border: 2px solid #012638;
+    background-color: white;
+    text-shadow: white 3px 3px 5px;
+    color: #012638;
+    transition: 300ms;
+}
+
+.noTiene {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+#button {
+    padding: 1rem;
+    background-color: #012638;
+    border: 2px solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+#button:hover {
+    background-color: white;
+    color: #023047;
+}
+.map {
+    height: 20vw;
+    width: 25vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.navBar{
+    text-decoration: none;
+    color: white;
+    background-color: #023853;
+   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.verActividades {
+    text-decoration: none;
+    color: white;
+    background-color:#012638;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 1rem;
+}
+.verActividades:hover {
+    background-color: white;
+    color: #023853;
+    transition: 300ms;
+}
+.verOtro {
+    background-color: #012638;
+    width: fit-content;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.verOtro:hover {
+    background-color: white;
+    color:#023853;
+    text-shadow: white 3px 3px 5px;
+    transition: 300ms;
+}

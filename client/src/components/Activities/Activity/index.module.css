@@ -1,0 +1,109 @@
+#card {
+  color: white;
+  margin: 1rem;
+  border: 1px solid white;
+  background: linear-gradient(#034160, #02283c);
+  border-radius: 1rem;
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 4px 4px 10rem rgb(54, 49, 49), 3px 3px black;
+  width: min-content;
+  box-shadow: 10px 15px 15px black;
+  text-shadow: black 2px 2px 5px;
+  margin-bottom: 2rem;
+  animation-name: aparecer;
+  animation-duration: 1.5s;
+}
+@keyframes aparecer {
+  0%{
+    transform: scale(0.1);
+  }
+}
+
+#card:hover {
+  background: linear-gradient( #033652 ,#04364f);
+}
+.nametamaño {
+  padding: 4rem;
+}
+#country {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background-color: #012638;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0.655rem;
+  margin-right: 5px;
+  
+}
+#name {
+  text-shadow: 4px 4px 10rem rgb(54, 49, 49), 3px 3px black;
+  background-color: #012638;
+  border-radius: 1rem ;
+  padding: 0.655rem;
+ 
+}
+#duration{
+  margin: 0.655rem;
+}
+#country:hover {
+  background-color: white;
+  color: #023047;
+  border: 1px solid #012638;
+  transition: 300ms;
+}
+#countryImg{
+  display: flex;
+  align-items: center;
+
+}
+#imgCount {
+  width: 50px;
+  height: 40px;
+  margin-right: 5px;
+  border-radius: 1rem;
+  border: 1px solid #02283c;
+  margin-left: 10px;
+}
+#imgAct{
+  border-radius: 1rem;
+  margin: 5px;
+  border: 1px solid white;
+}
+
+.navBar {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 0.655rem;
+}
+
+.navBar:hover {
+  background-color: #02283c;
+  transition: 300ms;
+  border: 1px solid #023047;
+  color: rgba(208, 208, 208, 0.921);
+  text-shadow: white 3px 3px 5px;
+}
+
+.button {
+  color: white;
+  text-shadow: black 2px 2px 5px;
+  background-color: #a72c2c;
+  border: 1px solid white;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 0.655rem;
+
+}
+.button:hover {
+  background-color: white;
+  text-shadow: white 2px 2px 5px;
+  color: #a72c2c;
+  transition: 300ms;
+}

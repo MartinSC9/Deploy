@@ -1,0 +1,36 @@
+#img {
+  width: 700px;
+  height: 400px;
+  border-radius: 400px;
+  margin-top: 1.6rem;
+}
+
+#enter {
+  font-size: 3rem;
+  margin-top: 2.7rem;
+  display: flex;
+  justify-content: center;
+  animation-name: animar;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  text-shadow: 2px 2px 10rem rgb(54, 49, 49), 3px 3px black;
+  border: none;
+  text-decoration: none;
+  color: white;
+
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@keyframes animar {
+  0% {
+    transform: scale(0.95);
+  }
+}
+
+#enter:hover {
+  text-shadow: 2px 2px 10rem rgb(54, 49, 49), 3px 3px #023047;
+}

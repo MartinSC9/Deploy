@@ -1,0 +1,18 @@
+#footer {
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 0%;
+    background: linear-gradient(#02334c,  #03314a);
+    border: 1px solid white;
+    margin-bottom: 0%;
+    color: white;
+    text-align: center;
+    display: flex;
+    text-shadow: black 2px 2px 5px;
+}
+
+.linkedin {
+    color: rgb(4, 155, 255);
+    text-decoration: none;
+    text-shadow: black 2px 2px 5px;
+}

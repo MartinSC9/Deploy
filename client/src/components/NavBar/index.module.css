@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 2rem;
+    background: linear-gradient(#034160,  #043e5d);
+    border: 1px solid white;
+}
+
+.navBar {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.navBar:hover {
+    background-color: #02283c;
+    transition: 300ms;
+    border: 1px solid #023047;
+}
+
+.navActive {
+    background: linear-gradient(#034160, #02283c);
+    border-radius: 1rem;
+    padding: 13px;
+    border: 1px solid #023047;
+    box-shadow: 1px 1px 1px white;
+    color: rgba(255, 255, 255, 0.921);
+}

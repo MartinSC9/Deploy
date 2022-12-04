@@ -1,0 +1,27 @@
+#pagination {
+  height: 60px;
+  line-height: 60px;
+  width: fit-content;
+  background-color: #023047;
+  display: contents;
+}
+
+.button {
+  box-shadow: 10px 15px 15px black;
+  background: linear-gradient(#034160, #02283c);
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 19px;
+  border: 1px solid #023047 ;
+}
+
+.button:hover,
+.button:focus {
+  background: rgba(255, 255, 255, 0.921);
+  color: #023047 ;
+  transition: 70ms;
+  border: 1px solid #023047;
+  box-shadow: 1px 2px 2px white;
+}
+
