@@ -41,8 +41,6 @@ const ActivitiesCountry = () => {
             }
             setCont(cont + 1)
             dispatch(getAllActivities())
-        }).then(res=>{
-        dispatch(getAllActivities())
         })
     }
 
