@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom'
-import { activityCountry, countryDetail, nextCountry } from '../../redux/actions/index';
+import { activityCountry, countryDetail, nextCountry, getAllCountries } from '../../redux/actions/index';
 
 import style from "./index.module.css"
 
@@ -16,6 +16,7 @@ const Details = () => {
   useEffect(() => {
     dispatch(countryDetail(params.countryName))
     dispatch(nextCountry(params.countryName))
+    dispatch(getAllCountries())
     dispatch(activityCountry(params.countryName))
   }, [dispatch, params.countryName]);
 
