@@ -43,7 +43,7 @@ const ActivitiesCountry = () => {
             dispatch(getAllActivities())
         }).then(res=>{
         dispatch(getAllActivities())
-        }
+        })
     }
 
 
