@@ -8,7 +8,7 @@ import Countries from './components/Countries/';
 import Details from './components/Details/';
 import ActivitiesCountry from './components/ActivitiesCountry/Index';
 import axios from "axios"
-axios.defaults.baseURL = "https://deploy-production-792b.up.railway.app"
+axios.defaults.baseURL = "https://deploy-production-792b.up.railway.app/"
 
 
 function App() {
